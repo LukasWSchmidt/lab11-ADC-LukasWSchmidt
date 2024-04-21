@@ -19,6 +19,11 @@
 #define GPIOA_EN 0
 #define GPIOB_EN 1
 #define GPIOC_EN 2
+#define INPUT_MODE 0b00
+#define OUTPUT_MODE 0b01
+#define ALTFUNC_MODE 0b10
+#define ANALOG_MODE 0b11
+#define CLEAR_MODE 0b11
 
 typedef struct GPIO_t {
 	uint32_t moder;
