@@ -37,6 +37,7 @@ typedef struct ADC_t {
 
 //SR
 #define EOC 1
+#define STRT 4
 
 //CR1
 #define EOCIE 5
@@ -52,7 +53,7 @@ typedef struct ADC_t {
 
 //SQR1
 #define SQ1 0
-#define SQ2 4
+#define SQ2 5
 
 
 

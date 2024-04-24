@@ -13,7 +13,6 @@
 #define PORTD 0x3
 #define PORTE 0x4
 
-
 #define SYSCFG_BASE 0x40013800
 #define EXTI_BASE 0x40013C00
 #define SYSCFGEN 14
